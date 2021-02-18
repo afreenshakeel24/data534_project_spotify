@@ -6,7 +6,7 @@ Authors@R:
            family = "Fairbanks",
            role = c("aut", "cre"),
            email = "connorfairbanks@gmail.com")
-Description: The purpose of this package is to build an API wrapper in R for gathering data from Spotify and visualizing that data in plots. 
+Description: The purpose of this package is to provide an API wrapper in R for gathering data from Spotify and visualizing that data in plots. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
