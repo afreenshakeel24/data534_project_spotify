@@ -3,9 +3,8 @@
 
 # rspotify
 
-<!-- badges: start -->
-
-<!-- badges: end -->
+![three OS
+check](https://github.com/cfbanks/data534_project_spotify/workflows/R-CMD-check/badge.svg)
 
 The purpose of this package is to provide an API wrapper in R for
 gathering data from Spotify and visualizing that data in plots.
@@ -33,12 +32,12 @@ This is a basic example which shows you how to complete a certain task:
 ``` r
 library(rspotify)
 #> Loading required package: tidyverse
-#> -- Attaching packages --------------------------------------------------------------------------------------------------------------- tidyverse 1.3.0 --
+#> -- Attaching packages -------------------------------- tidyverse 1.3.0 --
 #> v ggplot2 3.3.2     v purrr   0.3.4
 #> v tibble  3.0.3     v dplyr   1.0.2
 #> v tidyr   1.1.2     v stringr 1.4.0
 #> v readr   1.3.1     v forcats 0.5.0
-#> -- Conflicts ------------------------------------------------------------------------------------------------------------------ tidyverse_conflicts() --
+#> -- Conflicts ----------------------------------- tidyverse_conflicts() --
 #> x dplyr::filter() masks stats::filter()
 #> x dplyr::lag()    masks stats::lag()
 ## basic example code
