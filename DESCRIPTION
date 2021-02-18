@@ -1,16 +1,24 @@
 Package: rspotify
-Title: What the Package Does (One Line, Title Case)
+Title: Spotify API wrapper for R
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Connor",
+           family = "Fairbanks",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "connorfairbanks@gmail.com")
+Description: The purpose of this package is to build an API wrapper in R for gathering data from Spotify and visualizing that data in plots. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 2.0.0)
+Config/testthat/edition: 2
+Depends: 
+    tidyverse
+Imports: 
+    ggplot2,
+    dplyr,
+    httr,
+    jsonlite
