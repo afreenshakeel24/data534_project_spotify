@@ -31,19 +31,17 @@ This is a basic example which shows you how to complete a certain task:
 
 ``` r
 library(rspotify)
-#> Loading required package: tidyverse
-#> -- Attaching packages -------------------------------- tidyverse 1.3.0 --
-#> v ggplot2 3.3.2     v purrr   0.3.4
-#> v tibble  3.0.3     v dplyr   1.0.2
-#> v tidyr   1.1.2     v stringr 1.4.0
-#> v readr   1.3.1     v forcats 0.5.0
-#> -- Conflicts ----------------------------------- tidyverse_conflicts() --
-#> x dplyr::filter() masks stats::filter()
-#> x dplyr::lag()    masks stats::lag()
 ## basic example code
 example_add(4, 10)
 #> [1] 14
 ```
+
+## Code of Conduct
+
+Please note that the rspotify project is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
 
 <!--You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/master/examples>. 
 
